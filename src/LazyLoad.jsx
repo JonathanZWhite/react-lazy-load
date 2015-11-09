@@ -50,7 +50,7 @@ export default class LazyLoad extends Component {
 
     return (
       <div className={elClasses} style={elStyles}>
-        {this.state.visible && this.props.children}
+        {this.props.children}
       </div>
     );
   }
